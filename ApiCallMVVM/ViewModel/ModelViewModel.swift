@@ -14,7 +14,7 @@ class ModelViewModel: ObservableObject {
     
     func fetchData(){
         
-        let url = URL(string: "https://api.themoviedb.org/3/movie/top_rated?api_key=c94fe8ec569c8c127c750ab2cbb0773b&language=en-US&page=1")
+        let url = URL(string: "paste your api here :)")
         
         URLSession.shared.dataTask(with: url!) { data, response, error in
             if let error = error {
